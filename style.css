@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Monomaniac+One&family=Playfair+Display&family=Poppins:wght@300;600&family=Roboto:wght@400;500&display=swap');
+body{
+max-width: 100%;
+}
+
+.first {
+    background-image: url(images/donate15.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-decoration: none;
+    margin-top: -25px;
+}
+
+.first-section {
+    color: rgb(219, 214, 214);
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#first-status{    
+    padding-left: 1300px;
+    padding-top: 400px;
+    margin-right: 315px;
+    font-size: 30px;
+    
+}
+.donate-now {
+    background-color: rgb(255, 174, 0);
+    margin-top: -200px;
+    margin-left: 1300px;
+    margin-right: 250px;
+    padding-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 45px;
+    color: aliceblue;
+    border-radius: 15px;
+
+}
+#decoration{
+    text-decoration: none;
+
+}
+.second{
+    max-width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Monomaniac+One&family=Playfair+Display&family=Poppins:wght@300;600&family=Roboto:wght@400;500&display=swap');
+.second-section{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#money{
+    text-align: center;
+    color: rgb(100, 99, 99);
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#third-section{
+    width: 100%;
+    margin:auto;
+    padding:px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+#flex-container{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 170px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+.flex-box{
+    width: 150px;
+    height: 150px;
+    background-color:;
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    text-align: center;
+    line-height: 130px;
+    border-radius: 20px;
+    border: solid #d8db2e 2px;
+    padding: 5px;
+    
+}
+form {
+    margin: 100px;
+  }
+  .input-field {
+    position: relative;
+    width: 400px;
+    height: 44px;
+    line-height: 44px;
+  }
+  label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #d3d3d3;
+    transition: 0.2s all;
+    cursor: text;
+    padding-left: 770px;
+  }
+  input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;
+    color: #111;
+    margin-left: 650px;
+
+  }
+  input:invalid {
+    outline: 0;
+    // color: #ff2300;
+    //   border-color: #ff2300;
+  }
+  input:focus,
+  input:valid {
+    border-color: #00dd22;
+  }
+  input:focus~label,
+  input:valid~label {
+    font-size: 14px;
+    top: -24px;
+    color: #00dd22;
+  }
+.donate-button{
+    background-color: rgb(231, 166, 166);
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+font-size: 20px;
+margin-top: 8px;
+margin-left: 780px;
+border-radius: 5px;
+}
+  
+  
+.yes{
+    background-color: rgb(240, 74, 74);
+}
+.plan{
+    max-width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+.third-border {
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 15%;
+
+}
+
+.skill-title-what {
+    padding-left: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+
+}
+
+.skills-container {
+    display: flex;
+    max-width: 900px;
+    padding-left: 500px;
+    gap: 100px;
+
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow:  5px 5px 5px 5px rgb(82, 80, 80);
+
+}
+
+.skill-title {
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.skill-description {
+    color: #757474;
+}
+.one{
+    background-color:#98d8e0 ;
+}
+.two{
+    background-color: #eeafaf;
+}
+.three{
+    background-color: #FFF4D6;
+}
